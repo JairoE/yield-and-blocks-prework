@@ -6,7 +6,7 @@ def hello_t(array)
     i = i+1
   end
 
-
+  array
 end
 
 # call your method here!
@@ -16,5 +16,5 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   end
 
-  return ["Tim", "Tom", "Jim"]
+   ["Tim", "Tom", "Jim"]
 end
