@@ -16,5 +16,5 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   end
 
-  ["Tim", "Tom", "Jim"]
+  return ["Tim", "Tom", "Jim"]
 end
